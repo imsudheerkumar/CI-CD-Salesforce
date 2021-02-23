@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>bank_account_user_setup</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>newcompact1</compactLayoutAssignment>
+    <label>Bank Account User Setup</label>
+    <picklistValues>
+        <picklist>AccountApproved__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Type__c</picklist>
+        <values>
+            <fullName>Current Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Savings Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Savings Minor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>City__c</picklist>
+        <values>
+            <fullName>BHU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HYD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Daily_Limit__c</picklist>
+        <values>
+            <fullName>100000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50000</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

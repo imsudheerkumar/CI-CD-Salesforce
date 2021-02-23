@@ -1,0 +1,37 @@
+<apex:page standardController="Account__c">
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Bank Account Info">
+            
+            <apex:outputField value="{!Account__c.Name}" />
+            <apex:outputField value="{!Account__c.Account_Type__c}" />
+            <apex:outputField value="{!Account__c.Balance__c}" />
+            <apex:outputField value="{!Account__c.Bank__c}" />
+            <apex:outputField value="{!Account__c.Branch__c}" />
+            <apex:outputField value="{!Account__c.City__c}" />
+            
+         </apex:pageBlockSection>
+        
+        <apex:pageBlockSection title="Customer Info">
+                    <apex:outputField value="{!Account__c.Customer_Name__c}" />
+                    <apex:outputField value="{!Account__c.Email__c}" />
+                    <apex:outputField value="{!Account__c.Total_Number_of_Deposits__c}" />
+                    <apex:outputField value="{!Account__c.Total_Withdraws_Made__c}" />
+        
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection title="Transactions Details">
+            <apex:pageBlockTable value="{!Account__c.Transactions__r}" var="Trans" >
+                
+                
+ 					<apex:column value="{!Trans.Name}" />               
+                	<apex:column value="{!Trans.Amount__c}" />
+                    <apex:column value="{!Trans.Bank_Account__c}" />
+                    <apex:column value="{!Trans.Transaction_type__c}" />
+           
+            
+            </apex:pageBlockTable>
+       
+        </apex:pageBlockSection>
+            
+    </apex:pageBlock>
+</apex:page>

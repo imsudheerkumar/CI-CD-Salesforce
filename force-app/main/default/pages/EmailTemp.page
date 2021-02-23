@@ -1,0 +1,21 @@
+<apex:page controller="DisplayEmailTemplate">
+
+    <apex:form >
+
+       <apex:pageBlock >
+
+         <apex:pageBlockTable value="{!tempList}" var="temRec">
+
+            <apex:column value="{!temRec.Name}" headerValue="Name"/>
+
+            <apex:column value="{!temRec.TemplateType}" headerValue="Subject"/>
+
+            <apex:column value="{!temRec.Description}" headerValue="Description"/>
+
+         </apex:pageBlockTable>
+
+       </apex:pageBlock>
+
+    </apex:form>
+
+</apex:page>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>deposit_greater_than_10k</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(ISPICKVAL(Transaction_type__c, &apos;Deposit&apos;),IF(Amount__c &lt;10000,true,false),false)</errorConditionFormula>
+    <errorMessage>Deposit amount should be &gt;10,000</errorMessage>
+</ValidationRule>

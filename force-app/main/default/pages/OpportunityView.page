@@ -1,0 +1,8 @@
+<apex:page standardController="Contact">
+    <apex:pageBlock >
+  
+      <apex:relatedList list="Opportunities" pageSize="1"/>
+    
+
+        </apex:pageBlock>
+</apex:page>

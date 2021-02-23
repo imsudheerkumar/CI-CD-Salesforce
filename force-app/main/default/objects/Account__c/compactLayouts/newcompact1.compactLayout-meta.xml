@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>newcompact1</fullName>
+    <fields>Bank__c</fields>
+    <fields>Branch__c</fields>
+    <fields>Account_Type__c</fields>
+    <fields>Name</fields>
+    <fields>AccountApproved__c</fields>
+    <fields>Balance__c</fields>
+    <label>newcompact1</label>
+</CompactLayout>

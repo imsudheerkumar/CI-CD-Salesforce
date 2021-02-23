@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Main_homepage</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Bank_Account_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Bank_Account_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#DA1A37</headerColor>
+        <logo>bankingconceptuallogouniquesymbolba</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>It Includes all the Banking services like Account creation, transactions and Loans</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Banking Application System</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Bank_Account_New_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account__c</pageOrSobjectType>
+        <recordType>Account__c.bank_account_user_setup</recordType>
+        <type>Flexipage</type>
+        <profile>Bank Clerk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Bank_Account_New_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account__c</pageOrSobjectType>
+        <recordType>Account__c.bank_account_user_setup</recordType>
+        <type>Flexipage</type>
+        <profile>Bank Clerk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Bank_Account_RC</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account__c</pageOrSobjectType>
+        <recordType>Account__c.Clerk_setup</recordType>
+        <type>Flexipage</type>
+        <profile>Bank Clerk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Bank_Account_RC</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account__c</pageOrSobjectType>
+        <recordType>Account__c.Clerk_setup</recordType>
+        <type>Flexipage</type>
+        <profile>Bank Clerk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Main_homepage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin-2</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Main_homepage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Bank Clerk</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Main_homepage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Bank Manager</profile>
+    </profileActionOverrides>
+    <tabs>Bank__c</tabs>
+    <tabs>Branch__c</tabs>
+    <tabs>Loan__c</tabs>
+    <tabs>Transaction__c</tabs>
+    <tabs>Account__c</tabs>
+    <tabs>Support_Product__c</tabs>
+    <tabs>Delta__c</tabs>
+    <tabs>American__c</tabs>
+    <tabs>United__c</tabs>
+    <tabs>Dummy__c</tabs>
+    <tabs>Interviewer__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Banking_Application_UtilityBar</utilityBar>
+</CustomApplication>

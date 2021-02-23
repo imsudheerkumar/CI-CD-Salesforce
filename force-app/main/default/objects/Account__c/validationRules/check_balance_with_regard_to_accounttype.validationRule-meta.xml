@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>check_balance_with_regard_to_accounttype</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( ISPICKVAL( Account_Type__c , &quot;Savings Account&quot;) , IF( Balance__c &gt;= 10000 ,false,true),IF( ISPICKVAL( Account_Type__c , &quot;Current Account&quot;) , IF( Balance__c &gt;= 25000 ,false,true),
+IF( ISPICKVAL( Account_Type__c , &quot;Savings Minor&quot;) ,IF( Balance__c &gt;= 2500 ,false,true), false)))</errorConditionFormula>
+    <errorMessage>Minimum balance for : Savings account is &gt;=10000, Current account is &gt;=25000 and Savings Minor is &gt;=2500</errorMessage>
+</ValidationRule>

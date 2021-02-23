@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<h1> Hello welcome to our page</h1>
+    <lightning:button></lightning:button>
+    <button class="slds-button slds-button_success">Success Button</button>
+</aura:component>

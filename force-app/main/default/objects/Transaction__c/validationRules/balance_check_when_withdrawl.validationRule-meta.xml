@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>balance_check_when_withdrawl</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(  ISPICKVAL( Transaction_type__c , &apos;Withdraw&apos;) , 
+
+IF( Amount__c&gt;Bank_Account__r.Balance__c , true, false) , false)</errorConditionFormula>
+    <errorDisplayField>Amount__c</errorDisplayField>
+    <errorMessage>You Don&apos;t have sufficient funds in the Account. Please Add some funds before proceeding to Withdraw</errorMessage>
+</ValidationRule>

@@ -1,0 +1,24 @@
+<apex:page controller="NewCaseListController">
+    <apex:pageBlock >
+        <apex:pageblocksection >
+            <apex:pageblocktable value="{!NewCases1}" var="acc">
+                <apex:column value="{!acc.Name}" />
+                <apex:column value="{!acc.Bank__c}" />
+                <apex:column value="{!acc.Account_Type__c}" />
+                <apex:column value="{!acc.Average_Transaction_deposit__c}" />
+            
+            
+            
+            </apex:pageblocktable>
+           
+            
+            
+ 
+        
+        
+        
+        </apex:pageblocksection>
+    
+    
+    </apex:pageBlock>
+</apex:page>

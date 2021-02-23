@@ -1,0 +1,24 @@
+<apex:page >
+    <apex:pageBlock title="LoggedIn User Details" >
+        
+        <apex:pageBlockSection >
+           
+            User FirstName : {! $User.FirstName} <br/>
+           
+            User LastName  : {! $User.LastName}<br/>
+            Status         : {! $User.IsActive}<br/>
+                    MobilePhone	   : {! $User.MobilePhone}<br/>
+                	
+                    Username	   : {! $User.Username}<br/>
+                    Profile 	   : {! $Profile.Name}<br/>
+               		
+          
+        </apex:pageBlockSection>
+    
+    
+    
+    
+    </apex:pageBlock>
+    
+    
+</apex:page>
