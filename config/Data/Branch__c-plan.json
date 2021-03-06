@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Branch__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Branch__cs.json"
+        ]
+    }
+]
