@@ -6,7 +6,7 @@ name: CI-CD Salesforce
 # events but only for the master branch
 on:
   pull_request:
-    branches: [TEST]
+    branches: [TEST, master]
   push:
     branches: [TEST]
 
