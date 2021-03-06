@@ -1,0 +1,292 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef1"
+            },
+            "Branch_IFSC_Code__c": "ICICI34583",
+            "Branch_Location_City__c": "Proddatur",
+            "Name": "ICICI-Produttur-Rural",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaREAS"
+                },
+                "Bank_Code__c": "ICICI"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef2"
+            },
+            "Branch_IFSC_Code__c": "STAN-145692",
+            "Branch_Location_City__c": "Bhimavaram",
+            "Name": "STANCHA-BHI",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeagEAC"
+                },
+                "Bank_Code__c": "STANCHARTBK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef3"
+            },
+            "Branch_IFSC_Code__c": "SBI057841",
+            "Branch_Location_City__c": "Bhimavaram",
+            "Name": "SBI-BHIMAVARAM-MAIN",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIealEAC"
+                },
+                "Bank_Code__c": "SBIIN"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef4"
+            },
+            "Branch_IFSC_Code__c": "KOTAK140358",
+            "Branch_Location_City__c": "Vijayawada",
+            "Name": "KOTAK-VJA-GOVERNORPET",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeabEAC"
+                },
+                "Bank_Code__c": "KOTAKBANK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef5"
+            },
+            "Branch_IFSC_Code__c": "AXISRJY698789",
+            "Branch_Location_City__c": "Rajahmundry",
+            "Name": "AXIS-RJY-Devancheruvu",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaWEAS"
+                },
+                "Bank_Code__c": "AXISBK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef6"
+            },
+            "Branch_IFSC_Code__c": "ICICI778715",
+            "Branch_Location_City__c": "Rajahmundry",
+            "Name": "ICICI-RJY-Devancheruvu",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaREAS"
+                },
+                "Bank_Code__c": "ICICI"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef7"
+            },
+            "Branch_IFSC_Code__c": "KOTAK140698",
+            "Branch_Location_City__c": "Anantapur",
+            "Name": "KOTAK-ANA-SUBREG",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeabEAC"
+                },
+                "Bank_Code__c": "KOTAKBANK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef8"
+            },
+            "Branch_IFSC_Code__c": "SBINELURU35644",
+            "Branch_Location_City__c": "Eluru",
+            "Name": "SBI-ELURU-Main",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIealEAC"
+                },
+                "Bank_Code__c": "SBIIN"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef9"
+            },
+            "Branch_IFSC_Code__c": "SBIIN9741",
+            "Branch_Location_City__c": "Chittoor",
+            "Name": "SBI-Chittoor-Main",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIealEAC"
+                },
+                "Bank_Code__c": "SBIIN"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef10"
+            },
+            "Branch_IFSC_Code__c": "ICICIVIZ34583",
+            "Branch_Location_City__c": "Vizianagaram",
+            "Name": "ICICI-Vizianagaram-Urban",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaREAS"
+                },
+                "Bank_Code__c": "ICICI"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef11"
+            },
+            "Branch_IFSC_Code__c": "CANDHRM001",
+            "Branch_Location_City__c": "Dharmavaram",
+            "Name": "CANARA-DHMAVRM-Urbal",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001icytUEAQ"
+                },
+                "Bank_Code__c": "CANIND009"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef12"
+            },
+            "Branch_IFSC_Code__c": "GRBNKANTP",
+            "Branch_Location_City__c": "Anantapur",
+            "Name": "Grameena Bank ANTP",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001wyBhWEAU"
+                },
+                "Bank_Code__c": "GRCOBNK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef13"
+            },
+            "Branch_IFSC_Code__c": "SBINAM025",
+            "Branch_Location_City__c": "Amaravati",
+            "Name": "ICICI-Amar-Main",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaREAS"
+                },
+                "Bank_Code__c": "ICICI"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef14"
+            },
+            "Branch_IFSC_Code__c": "RBLBHIM9783453",
+            "Branch_Location_City__c": "Bhimavaram",
+            "Name": "RBL-BHIM-Street 3",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIq2UEAS"
+                },
+                "Bank_Code__c": "RBLIN001"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef15"
+            },
+            "Branch_IFSC_Code__c": "CANTPT3436",
+            "Branch_Location_City__c": "Tirupati",
+            "Name": "CANARA-TPT-Main Road",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001icytUEAQ"
+                },
+                "Bank_Code__c": "CANIND009"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef16"
+            },
+            "Branch_IFSC_Code__c": "AXS09202",
+            "Branch_Location_City__c": "Bhimavaram",
+            "Name": "AXIS-BHIM-Main",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaWEAS"
+                },
+                "Bank_Code__c": "AXISBK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef17"
+            },
+            "Branch_IFSC_Code__c": "AXSCHTR02323",
+            "Branch_Location_City__c": "Chittoor",
+            "Name": "AXIS-CHTTR-Main",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaWEAS"
+                },
+                "Bank_Code__c": "AXISBK"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Branch__c",
+                "referenceId": "Branch__cRef18"
+            },
+            "Branch_IFSC_Code__c": "AXSVZA723",
+            "Branch_Location_City__c": "Vizianagaram",
+            "Name": "AXIS-VIZA-Main",
+            "Bank__r": {
+                "attributes": {
+                    "type": "Bank__c",
+                    "url": "/services/data/v50.0/sobjects/Bank__c/a0E0o00001gIeaWEAS"
+                },
+                "Bank_Code__c": "AXISBK"
+            }
+        }
+    ]
+}
