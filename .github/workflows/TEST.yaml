@@ -11,7 +11,7 @@ on:
     branches: [test-3, TEST]
 
 jobs:
-  Salesforce and Send Slack Notif:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
