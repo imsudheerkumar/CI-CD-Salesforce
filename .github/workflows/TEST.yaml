@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [test-3,TEST]
   push:
-    branches: [test-3, TEST]
+    branches: [test-3]
 
 jobs:
   Salesforce_Slack_Notif:
