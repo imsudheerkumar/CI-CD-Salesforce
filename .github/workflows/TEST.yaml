@@ -1,4 +1,3 @@
-# This is a basic workflow to help you get started with Actions
 
 name: CI-CD Salesforce
 
@@ -11,7 +10,7 @@ on:
     branches: [test-3, TEST]
 
 jobs:
-  Salesforce_Slack:
+  Salesforce and Send Slack Notif:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,5 +29,4 @@ jobs:
           SLACK_BOT_TOKEN: '${{ secrets.SLACK_BOT_TOKEN }}'
         uses: pullreminders/slack-action@master
         with:
-          args: '{\"channel\":\"[C01QTM49NG1]\",\"blocks\":[{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"<${{ github.event.pull_request.html_url }}|View Pull Request>\"}}]}'
-
+          args: '{\"channel\":\"C01QTM49NG1\",\"text\":\"Code Changes Done\"}'
