@@ -11,7 +11,7 @@ on:
     branches: [test-3, TEST]
 
 jobs:
-  Run Salesforce and Send Slack Notif:
+  Salesforce and Send Slack Notif:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
