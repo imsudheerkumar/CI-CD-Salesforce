@@ -26,10 +26,6 @@ jobs:
 
           ./sfdx-cli/install
 
-      - name: "Create a Scratch Org"
-        run: |
-            sfdx:force:org:create 
-
       - name: Send Slack Message
         env:
           SLACK_BOT_TOKEN: '${{ secrets.SLACK_BOT_TOKEN }}'
